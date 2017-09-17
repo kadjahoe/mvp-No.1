@@ -1,0 +1,143 @@
+.text-declaration {
+  text-decoration: none;
+}
+body {
+  margin: 0 auto;
+}
+.sidebar {
+  display: block;
+  position: fixed !important;
+  padding: 20px 16px 20px 0;
+  width: 20%;
+  z-index: 1;
+  height: 100%;
+  overflow: auto;
+  background-color: #003366;
+}
+.sidebar a {
+  text-decoration: none;
+}
+.sidebar a:hover {
+  background-color: #ff3366;
+}
+.sidebar a:active {
+  background-color: #ff3366;
+}
+.sidebar .item {
+  display: block;
+  width: 100%;
+  height: 25px;
+  padding: 16px 41px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  color: #fefefe;
+  position: relative;
+}
+.sidebar .item img {
+  padding: 0px;
+}
+.sidebar .item span {
+  top: 18px;
+  left: 78px;
+  position: absolute;
+}
+.sidebar .current {
+  background-color: #ff3366 !important;
+}
+.sidebar hr {
+  text-align: center;
+  width: 100%;
+  padding-left: 15px;
+}
+.page-body {
+  margin-left: 25%;
+  padding: 5px 61px 16px 21px;
+}
+.breadcrumb ul {
+  padding: 0px 0px;
+  list-style: none;
+  border-bottom: 1px solid #003366;
+  height: 40px;
+}
+.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+  color: #003366;
+}
+.breadcrumb li a {
+  color: #999999;
+  text-decoration: none;
+}
+.breadcrumb li a:hover {
+  color: #003366;
+  text-decoration: none;
+}
+.breadcrumb li + li:before {
+  padding: 8px;
+  color: #999999;
+  content: ">\00a0";
+}
+.page-title {
+  padding-top: 5px;
+  color: #003366;
+}
+.page-title p {
+  color: #999999;
+}
+.page-data {
+  padding-top: 45px;
+  display: -webkit-box;
+}
+.page-data a {
+  text-decoration: none;
+}
+.page-data a.lists-item {
+  width: 25%;
+  height: 200px;
+  display: block;
+  background-color: rgba(0, 51, 102, 0.15);
+  border-radius: 10px;
+  margin: 10px 75px 10px 0;
+  padding: 5px 10px;
+  text-align: center;
+}
+.page-data a .list-details {
+  margin-top: 35px;
+}
+.page-data a .list-title {
+  color: #003366;
+  text-align: center;
+  text-decoration: none;
+}
+.page-data a .list-subscribers {
+  color: #ff3366;
+  text-align: center;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+}
+.page-data a .list-subscribers-description {
+  color: #fefefe;
+  text-align: center;
+  text-decoration: none;
+}
+.page-data .list-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.page-data .list-table th,
+.page-data .list-table td {
+  text-align: center;
+  padding: 8px;
+  font-weight: 100;
+}
+.page-data .list-table td {
+  border-bottom: 1px solid #003366;
+  border-left: none;
+}
+.page-data .list-table th {
+  background-color: rgba(0, 51, 102, 0.15);
+  color: white;
+}
